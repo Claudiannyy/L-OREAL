@@ -1,0 +1,175 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: 0;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Kodchasan", sans-serif;
+  color: #000000;
+  background: #EFEEF3;
+}
+
+header {
+  display: flex;
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1%;
+}
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    height: auto;
+  }
+}
+header img {
+  height: 4vh;
+}
+@media (max-width: 600px) {
+  header img {
+    width: 40vw;
+    height: auto;
+    padding: 5% 0;
+  }
+}
+header ul {
+  list-style-type: none;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.95rem;
+  width: 80vw;
+  justify-content: space-around;
+}
+@media (max-width: 600px) {
+  header ul {
+    align-items: center;
+    flex-direction: column;
+    font-size: 1.25rem;
+    gap: 15px;
+  }
+}
+
+main .imagem-inicio {
+  width: 100vw;
+  height: 30vh;
+}
+@media (max-width: 600px) {
+  main .imagem-inicio {
+    display: none;
+  }
+}
+main .sobre-novo-produto {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  padding: 2% 8%;
+}
+@media (max-width: 600px) {
+  main .sobre-novo-produto {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+main .sobre-novo-produto img {
+  width: 25vw;
+  height: 35vh;
+}
+@media (max-width: 600px) {
+  main .sobre-novo-produto img {
+    width: 80vw;
+    height: auto;
+  }
+}
+main .sobre-novo-produto .descricao-produto {
+  display: flex;
+  flex-direction: column;
+  width: 30vw;
+}
+@media (max-width: 600px) {
+  main .sobre-novo-produto .descricao-produto {
+    align-items: center;
+    width: 100vw;
+  }
+}
+main .sobre-novo-produto h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 2.925rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  main .sobre-novo-produto h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 1.95rem;
+    margin: 8% 0;
+  }
+}
+main p {
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.95rem;
+  text-align: center;
+}
+@media (max-width: 600px) {
+  main p {
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    padding: 0 5%;
+  }
+}
+main .produtos-populares {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0% 8%;
+}
+@media (max-width: 600px) {
+  main .produtos-populares {
+    flex-direction: column;
+  }
+}
+main .produtos-populares h2 {
+  width: 30vw;
+  font-size: 1.875rem;
+  font-weight: 400;
+  line-height: 2.438rem;
+  text-align: left;
+}
+@media (max-width: 600px) {
+  main .produtos-populares h2 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.625rem;
+    text-align: center;
+    width: 100%;
+    margin: 2% 0;
+  }
+}
+main .produtos-populares ul {
+  list-style-type: none;
+  height: 30vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 80px;
+  width: 50vw;
+}
+@media (max-width: 600px) {
+  main .produtos-populares ul {
+    display: grid;
+    grid-template-columns: 40vw 40vw;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=style.css.map */
