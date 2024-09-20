@@ -19,9 +19,8 @@ header {
     display: flex;
     height: 8vh;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0 1%;
-
     @media (max-width:600px) {
         flex-direction: column;
         height: auto;
@@ -41,13 +40,12 @@ header {
         font-weight: 400;
         line-height: 1.95rem;
         width: 80vw;
-        justify-content: space-around;
+        //justify-content: space-around;
 
         @media (max-width:600px) {
             align-items: center;
             flex-direction: column;
             font-size: 1.25rem;
-            gap:15px;
         }
     }
 
@@ -158,11 +156,9 @@ main{
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                gap:80px;
                 width: 50vw;
                 @media (max-width:600px) {
-                    display: grid;
-                    grid-template-columns: 40vw 40vw;
+                    flex-wrap: wrap;
                     justify-content: center;
                 }
             }

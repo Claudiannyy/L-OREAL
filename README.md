@@ -3,11 +3,11 @@
 Este projeto consiste na criação de um site para a L'Oréal, desenvolvido como parte de um curso de front-end. O objetivo é construir uma página web envolvente e funcional que reflita a identidade da marca e apresente suas ofertas e informações de forma clara e atraente. Este projeto demonstra a aplicação de conceitos de design e desenvolvimento front-end em um contexto realista.
 
 ## 🎨 Layout Fornecido 
-O layout do projeto foi disponibilizado no Figma. Abaixo está a imagem do design fornecido:
+O layout do projeto foi disponibilizado no Figma.
 
-![Layout Fornecido](assets\layout fornecido.png)
+![Imagem do layout](./assets/layout.png)
 
-Este design serviu como base para a construção do site e deve ser seguido para garantir que o resultado final esteja alinhado com as especificações visuais e funcionais fornecidas.
+Este design serviu como base para a construção do site e devia ser seguido para garantir que o resultado final esteja alinhado com as especificações visuais e funcionais fornecidas do curso.
 
 ## 🛠️ Tecnologias Utilizadas 
 O desenvolvimento deste projeto utilizou as seguintes tecnologias e linguagens:
